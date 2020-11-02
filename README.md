@@ -1,7 +1,7 @@
 # docker-mkcert
 A docker image with mkcert utility installed
 
-This docker contains an mkcert utility v1.4.2, pulled from their [release](https://github.com/FiloSottile/mkcert/releases/) branch
+This docker contains an mkcert utility v1.4.2, pulled from mkcert [releases](https://github.com/FiloSottile/mkcert/releases/)
 
 
 Build a the docker-mkcert in your local image repository.
