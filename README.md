@@ -1,5 +1,5 @@
 # docker-mkcert
-A docker image with mkcert utility installed
+A minimal docker image (debian-slim) with mkcert utility installed. 
 
 This docker contains an mkcert utility v1.4.2, pulled from mkcert [releases](https://github.com/FiloSottile/mkcert/releases/)
 
