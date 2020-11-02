@@ -6,7 +6,7 @@ A minimal docker image (debian-slim) with mkcert utility installed.
 This docker contains an mkcert utility, pulled from mkcert [releases/tag/v1.4.2](https://github.com/FiloSottile/mkcert/releases/tag/v1.4.2)
 
 ## Why
-This is for me (and for you) to avoid installing mkcert into your local development (don't want to install Chocolatey or install unknown .exe in my local development machine)
+This is for me (and for you) to avoid installing mkcert into your local development (I don't want to install Chocolatey or install unknown .exe in my local development machine)
 
 ## How
 Build a the docker-mkcert in your local image repository.
