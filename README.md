@@ -1,7 +1,7 @@
 # docker-mkcert
 A minimal docker image (debian-slim) with mkcert utility installed. 
 
-This docker contains an mkcert utility v1.4.2, pulled from mkcert [releases](https://github.com/FiloSottile/mkcert/releases/)
+This docker contains an mkcert utility, pulled from mkcert [releases/tag/v1.4.2](https://github.com/FiloSottile/mkcert/releases/tag/v1.4.2)
 
 
 Build a the docker-mkcert in your local image repository.
