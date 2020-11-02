@@ -9,7 +9,7 @@ Build a the docker-mkcert in your local image repository.
 docker build -t docker-mkcert .
 ```
 
-Run the utility inside the created image
+Run the utility inside the created image. In this example it generates a CA and creates certificate for example.com and saves it into the current directory (through docker volume)
 ```
-docker run --rm -it docker-mkcert sh -c "mkcert -install"
+docker run --rm -v %cd%:/app -it docker-mkcert sh -c "mkcert -install && mkcert example.com"
 ```
