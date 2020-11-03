@@ -19,4 +19,4 @@ Run the utility inside the created image. In this example it generates a CA and 
 docker run --rm -v %cd%:/app -it docker-mkcert sh -c "mkcert -install && mkcert example.com"
 ```
 
-See the [mkcert repository](https://github.com/FiloSottile/mkcert) for more info of the commands.
+See the [mkcert repository](https://github.com/FiloSottile/mkcert#advanced-topics) for more info of the commands.
